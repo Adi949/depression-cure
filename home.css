@@ -144,3 +144,13 @@ div {
 	text-decoration: none;
 	font-size: 12px;
 }
+.chatbot{
+	position:fixed;
+	bottom: 0.5%;
+	right: 1%;
+	height: 60px;
+	width: 60px;
+	background-color: slateblue;
+	border-radius: 50%;
+	display: inline-block;
+}
