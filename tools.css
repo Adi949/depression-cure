@@ -18,7 +18,14 @@ background: linear-gradient(45deg, #6afff3, #67d164);
 background-attachment: fixed;
 }
 
+/* .description{
+display: flex;
+margin-top: 4%;
+justify-content: center;
+} */
+
 .container{
+margin-left: 5%;
 position: relative;
 width: 2000px;
 padding: 20px;
@@ -52,7 +59,7 @@ text-align: center;
  .circle h2{
 margin: 0;
 color: seashell;
-font-size: 3rem;
+font-size: 1.5rem;
 padding: 30px 0px;
 }
 
@@ -113,7 +120,13 @@ opacity: 1;
 
 @media screen and (max-width: 768px) {
 .container{
-margin-left:11%;
+margin-left:5%;
+margin-top: 10%;
 }
 
+.description{
+margin-top: 9%;}
+
 }
+
+
